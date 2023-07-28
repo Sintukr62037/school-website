@@ -1,0 +1,23 @@
+.eventbg{
+  /* background-image: url("../../assets/images/penguin.png"); */
+  background-color: #F6F8FA;
+}
+
+.heading{
+  font-weight: bolder;
+  font-size: 2.7rem;
+  margin: 1.7rem;
+}
+
+.Events {
+  // 700px/43.75rem and above (Vertical tablets and large horizontal phones)
+  @media screen and (min-width: 43.75rem) {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0 auto;
+      max-width: 44rem;
+    }
+  }
+}

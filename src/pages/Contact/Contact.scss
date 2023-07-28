@@ -1,0 +1,13 @@
+.contactbg{
+ background-image: url("../../assets/images/cloud.jpg");
+background-size: contain;
+}
+.Contact {
+  margin: 0 auto ;
+  padding: 0 6.25vw;
+  height: auto;
+  @media screen and (min-width: 64rem) {
+    padding: 0;
+    max-width: 44rem;
+  }
+}

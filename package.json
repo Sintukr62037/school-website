@@ -1,0 +1,83 @@
+{
+  "name": "SRIJAN-play-way",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@agney/react-loading": "^0.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.8",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "dayjs": "^1.9.6",
+    "empty": "^0.10.1",
+    "firebase": "^8.2.2",
+    "flow-bin": "^0.137.0",
+    "postcss-normalize": "^9.0.0",
+    "react": "^16.14.0",
+    "react-add-to-calendar": "^0.1.5",
+    "react-add-to-calendar-hoc": "^1.0.10",
+    "react-app-polyfill": "^2.0.0",
+    "react-bootstrap": "^1.4.0",
+    "react-burger-menu": "^2.9.0",
+    "react-content-loader": "^5.1.4",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.1.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-markdown": "^5.0.3",
+    "react-modal": "^3.11.2",
+    "react-preloaders": "^3.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-scroll": "^1.8.1",
+    "react-share": "^4.3.1",
+    "react-snap": "^1.23.0",
+    "sass": "^1.29.0",
+    "sitemap": "^6.3.3",
+    "styled-components": "^5.2.1",
+    "typeface-nunito": "^1.1.13",
+    "typeface-raleway": "1.1.13",
+    "typewriter-effect": "^2.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-flow": "^7.12.1",
+    "netlify-cli": "^2.68.7",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "postbuild": "react-snap"
+  },
+  "browserslist": {
+    "production": [
+      "defaults",
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie >= 10",
+      "ios_saf >= 7",
+      "safari >= 7.1"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "reactSnap": {
+    "inlineCss": false
+  },
+  "proxy": "https://localhost:3000"
+}
